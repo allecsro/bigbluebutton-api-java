@@ -15,6 +15,7 @@ Check out here how to get the secret: https://docs.bigbluebutton.org/dev/api.htm
 
 ```java
 final String endpoint = "https://acme.com/bigbluebutton/api";
+
 HttpClientConnectionManager connectionManager = new BasicHttpClientConnectionManager();
 BigBlueButtonApiClient bbbClient = new BigBlueButtonApiClientHttp(apiSecret, endpoint, connectionManager);
 
